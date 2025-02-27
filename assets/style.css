@@ -112,7 +112,7 @@ body {
 
 .nav-pills .nav-link.active,
 .nav-pills .show>.nav-link {
-	color: #fff;
+    color: #000 !important; 
 	background-color: #BEB45A;
 	border-radius: 0;
 }
@@ -152,6 +152,11 @@ body {
 	display: flex;
 	font-size: 24px;
 }
+
+.visually-hidden{
+    color: #1C6474 !important;
+}
+
 
 .quote {
 	font-family: 'Spectral';
